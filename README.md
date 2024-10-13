@@ -1,5 +1,8 @@
 # Student Test Service
 
+I have deployed the application my server. You can access the Swagger API Documentation using the link below:
+Swagger API Documentation: [https://doping.kirac.dev/swagger-ui/index.html](https://doping.kirac.dev/swagger-ui/index.html)
+
 ## Description
 Doping Technology Case Study. Simple Rest API for managing tests and students.
 
