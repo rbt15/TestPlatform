@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: TestPlatform
+  datasource:
+    url: 'jdbc:h2:mem:testdb;DATABASE_TO_UPPER=false'
+    driverClassName: org.h2.Driver
+    username: sa
+  h2:
+    console:
+      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    defer-datasource-initialization: true
+server:
+  port: 8080
